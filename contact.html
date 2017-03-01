@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta charset="UTF-8">
+	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<title>Victor Riveros Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		#contact{
+			background: url(images/contacthover.png) no-repeat;
+			background-color: #141f3d;
+			background-position: center 40%;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="nav-bar">
+		<div class="logo">
+			<a href="index.html"><img src="images/VRlogo.png"></a>
+		</div>
+		<a href="portfolio.html"><div class="nav-box" id="portfolio">
+			<div class="nav-item">Portfolio</div>
+		</div></a>
+		<a href="about.html"><div class="nav-box" id="about">
+			<div class="nav-item">About</div>
+		</div></a>
+		<a href="contact.html"><div class="nav-box" id="contact">
+			<div class="nav-item">Contact</div>
+		</div></a>
+		
+	</div>
+	<div class="section-right">
+	<div id="form">
+	  <h1>Contact Me</h1>
+	  <form action="formmail.php" method="post" name="form1" id="form1">
+	    <label for="name"></label>
+	    <input name="name" type="text" required id="name" placeholder="Name" size="50">
+		<br><br>
+	  <label for="email"></label>
+	  <input name="email" type="email" required id="email" placeholder="Email" size="50">
+	  <br><br>
+	  <label for="comments"></label>
+	  <textarea name="comments" cols="35" required id="comments" placeholder="Comments"></textarea>
+	  <br><br>
+	  <input type="submit" name="submit" id="submit" value="SUBMIT">
+	  <br><br>
+	 </form>
+	 </div>
+	</div>
+
+</body>
+</html>
